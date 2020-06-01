@@ -1,0 +1,16 @@
+{
+  "name": "twitter-source",
+  "config": {
+    "connector.class": "com.github.jcustenborder.kafka.connect.twitter.TwitterSourceConnector",
+    "tasks.max": 1,
+    "twitter.oauth.accessToken":"53722962-AUWQTejs1wWdOIX4ISEPdjRcZJtz6SUsAbZ0zoxwR",
+    "twitter.oauth.accessTokenSecret":"HXkUPiTWZ9XgnSmjaMNGZ5D4uT58BHcnL48nYJbUulcj7",
+    "twitter.oauth.consumerKey":"RRCvkdHf8aq8N9L6BGgs0LJBd",
+    "twitter.oauth.consumerSecret":"httBsoGqtGlUq2aaP6NwJJRZsphBOij4Rh8Wwlzlawvyd7ftN0",
+    "filter.keywords": "COVID-19",
+    "process.deletes": false,
+    "kafka.status.topic":"kafka-connect-twitter",
+    "kafka.delete.topic":"kafka-connect-twitter",
+    "language": "en"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "local-file-source",
+  "config": {
+    "connector.class": "FileStreamSource",
+    "tasks.max": "1",
+    "file": "/sample.txt",
+    "topic": "kafka-connect-1",
+    "name": "local-file-source"
+  },
+  "tasks": [],
+  "type": "source"
+}
