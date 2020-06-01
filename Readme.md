@@ -31,6 +31,7 @@ twitter.oauth.consumerSecret=
 twitter.oauth.accessToken=
 twitter.oauth.consumerKey=
 
+
 | Name                            | Description                                       | Type     | Default | Valid Values | Importance |
 |---------------------------------|---------------------------------------------------|----------|---------|--------------|------------|
 | filter.keywords                 | Twitter keywords to filter for.                   | list     |         |              | high       |
