@@ -15,6 +15,8 @@ Kafka Connect Distributed Mode in windows using kafka-binaries
 
 =============Twitter Source==============
 
+https://github.com/jcustenborder/kafka-connect-twitter/edit/master/README.md
+
 This Twitter Source connector is used to pull data from Twitter in realtime.
 
 name=connector1
