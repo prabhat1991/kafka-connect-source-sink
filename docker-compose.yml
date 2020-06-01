@@ -25,11 +25,11 @@ services:
 
   # Postgress DB configuration
   # Will be used as sink
-  postgress:
-    image: postgress:9.5-alpine
+  postgres:
+    image: postgres:9.5-alpine
     environment:
-      POSTGRESS_USER: postgress
-      POSTGRESS_PASSWORD: postgress
-      POSTGRESS_DB: postgress
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
     ports:
       - 5432:5432
